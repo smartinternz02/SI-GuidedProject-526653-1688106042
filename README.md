@@ -25,9 +25,10 @@ The **_Project Files_**  folder, contains the below folders
 
 <br>
 
-The demo video of our project couldn't be uploaded here due to size constraints so we have pasted the google drive link of it in **_Demo link.txt_** file. In the **_Project Report.pdf_**, 
-Appendix section has the google drive links to the following
+The demo video of our project couldn't be uploaded here due to size constraints so we are pasting the google drive link for it below,
+<br>**_Drive Link for Demo Video_** : _https://drive.google.com/file/d/1unSKd2zhFQlWGvATTAKQKuW3T6aQQlry/view?usp=sharing_ 
 
+In the **_Project Report.pdf_**, Appendix section has the google drive links to the following
   1. Project demo video.
   2. A folder containing the video demonstration of each project step we carried out.
   3. A folder containing all files related to web interface implementation. 
@@ -46,16 +47,16 @@ But to present our datasets to you without need of connecting to datasets, we ar
 <br>
 
 **DASHBOARD LINKS**
-  1. Show Analysis : https://public.tableau.com/views/TheSimpsonsAnalysis/TheSimpsonsAnalysis?:language=en-GB&:display_count=n&:origin=viz_share_link
+  1. Show Analysis : _https://public.tableau.com/views/TheSimpsonsAnalysis/TheSimpsonsAnalysis?:language=en-GB&:display_count=n&:origin=viz_share_link_
      
-  2. Top 10-20 : https://public.tableau.com/views/TheSimpsonsTop10-20/TheSimpsonsTop1020?:language=en-GB&:display_count=n&:origin=viz_share_link
+  2. Top 10-20 : _https://public.tableau.com/views/TheSimpsonsTop10-20/TheSimpsonsTop1020?:language=en-GB&:display_count=n&:origin=viz_share_link_
      
-  3. Locations : https://public.tableau.com/views/TheSimpsonsPlaceAnalysis/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
+  3. Locations : _https://public.tableau.com/views/TheSimpsonsPlaceAnalysis/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link_
      
-  4. Characters : https://public.tableau.com/app/profile/sanjay.r.r/viz/TheSimpsonsCharactersAnalysis/CHARACTERS
+  4. Characters : _https://public.tableau.com/app/profile/sanjay.r.r/viz/TheSimpsonsCharactersAnalysis/CHARACTERS_
 
 **STORY LINK**
-  1. The Simpsons Analysis Story : https://public.tableau.com/views/TheSimpsonsAnalysisStory/TheSimpsonsAnalysisStory?:language=en-GB&:display_count=n&:origin=viz_share_link
+  1. The Simpsons Analysis Story : _https://public.tableau.com/views/TheSimpsonsAnalysisStory/TheSimpsonsAnalysisStory?:language=en-GB&:display_count=n&:origin=viz_share_link_
 
 <br>
 
