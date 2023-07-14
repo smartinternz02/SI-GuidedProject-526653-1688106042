@@ -12,15 +12,15 @@ _All the team members are from VIT Chennai Campus._
 
 ### Greetings to evaluator!
 
-This repository holds the work we have completed as part of the Data Analytics Summer Internship program under Smart Bridge. In the **_Assignments.txt_** has the google drive link for the **Assignments** folder is pasted. That folder contains all the assignment 
-files of each team member.
+This repository holds the work we have completed as part of the Data Analytics Summer Internship program under Smart Bridge. In the **_Assignments_** folder all the assignment 
+files of each team member is uploaded.
 
 <br>
 
-The **_Project Files.txt_** has the google drive link for the **Project Files** folder, which contains the below folders
+The **_Project Files_**  folder, contains the below folders
 
- 1. The source code of our project website is in the **_Web Interface Implementation_** folder along with flask deployment code and websites assets.
- 2. The datasets we have used for analysis is in the **_Datasets_** folder.
+ 1. The datasets we have used for analysis is in the **_Datasets_** folder.
+ 2. The source code of our project website is in the **_Web Interface Implementation_** folder along with flask deployment code and websites assets.
  3. The tableau workbooks in packaged form are in **_Workbooks_** folder along with the **_Dashboard Background Images_** folder which contains the background images we used for dashboards.
 
 <br>
@@ -59,4 +59,4 @@ But to present our datasets to you without need of connecting to datasets, we ar
 
 <br>
 
-We have tried to consolidate work in the best possible manner. And we have also tried to give references and credits to the resources we have used wherever necessary. And as instructed instead of uploading zip files we have uploaded text file containing the google drive link of the required folders. In case of any  unchecked error, we apologize for it. We would like to thank Smart Bridge for giving this opportunity to explore and expand our skill set.
+We have tried to consolidate work in the best possible manner. And we have also tried to give references and credits to the resources we have used wherever necessary. In case of any  unchecked error, we apologize for it. We would like to thank Smart Bridge for giving this opportunity to explore and expand our skill set.
