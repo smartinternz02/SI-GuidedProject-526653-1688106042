@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>the Simpsons</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="static\assets\img\favicon.ico" rel="icon" />
+
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Covered+By+Your+Grace&family=Rock+Salt&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+  <link href="static/asssets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="static/static/assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="static/assets/css/style.css" rel="stylesheet" />
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h2>The Simpsons</h2>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about-section">About</a></li>
+          <li>
+            <a class="nav-link scrollto" href="#dashboards">Dashboards</a>
+          </li>
+          <li><a class="nav-link scrollto" href="#story">Stories</a></li>
+          <li>
+            <a class="nav-link scrollto" href="#inference">Inferences</a>
+          </li>
+          <li><a class="nav-link scrollto" href="#team">Analysts</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#ccecec">
+      </g>
+    </svg>
+
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about-section" class="outer_about">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+        </div>
+        <div class="about-simpsons">
+          <p>
+            The Simpsons show is an American animated sitcom created by Matt Groening. The series is a satirical
+            depiction of American life, epitomized by the Simpson family, which consists of Homer, Marge, Bart,
+            Lisa, and Maggie. Since its debut on December 17, 1989, 750 episodes of the show have been broadcast as
+            of May 21 2023. It is the longest-running American animated series, longest-running American sitcom, and
+            the longest-running American scripted primetime television series, both in terms of seasons and number
+            of episodes. What you will see below is the outcomes of visual-oriented analysis on this show that has
+            span across decades.
+            <br>
+            <br>
+            Just like every other analysis, this analysis too needed robust data that holds important information.
+            The dataset we got from Kaggle best fitted the criteria. The entire dataset was spread across four
+            tables, Episodes, Locations, Characters and Script Lines. Each table had a ID column. The Script Lines
+            dataset is the main dataset to which the other datasets are linked using their respective ID's. The
+            Script Lines datasets consists of 140749 lines that was either spoken by characters or were expressions
+            or sounds given by characters or descriptive lines that were used to explain scene to audience. Each
+            record of line had its own ID and included details about who and where the line was used, in which
+            episode of which season and the word count of the line. This mammoth information allowed us to analyse
+            various aspects of the show across the years. We have come up with a total of four dashboard, 2 for
+            analysis of show as a whole and 1 each for the Characters and locations appeared. Along with this, a
+            story made from important visualisations of each dashboard, is included.
+            <br>
+            <br>
+            The analysis aids in understanding the reach of the show over the years, and the response it got from
+            the audience and critics. This analysis is limited to the year 2015, due to constraints of the dataset.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Dashboards Section ======= -->
+    <section id="dashboards" class="dashboards">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Dashboards</h2>
+        </div>
+      </div>
+      <div class="dashboard-column">
+
+        <div class='tableauPlaceholder' id='viz1688137998271' style='position: relative'><noscript><a href='#'><img
+                alt='The Simpsons Analysis '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsAnalysis&#47;TheSimpsonsAnalysis&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='TheSimpsonsAnalysis&#47;TheSimpsonsAnalysis' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsAnalysis&#47;TheSimpsonsAnalysis&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-GB' />
+          </object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1688137998271'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <br>
+        <br>
+
+        <div class='tableauPlaceholder' id='viz1688136868112' style='position: relative'><noscript><a href='#'><img
+                alt='The Simpsons Top 10&#47;20 '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsTop10-20&#47;TheSimpsonsTop1020&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='TheSimpsonsTop10-20&#47;TheSimpsonsTop1020' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsTop10-20&#47;TheSimpsonsTop1020&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-GB' />
+          </object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1688136868112'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <br>
+        <br>
+
+        <div class='tableauPlaceholder' id='viz1688109575347' style='position: relative'><noscript><a href='#'><img
+                alt='Dashboard 2 '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsPlaceAnalysis&#47;Dashboard2&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='TheSimpsonsPlaceAnalysis&#47;Dashboard2' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsPlaceAnalysis&#47;Dashboard2&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1688109575347'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1490px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '1827px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <br>
+        <br>
+
+        <div class='tableauPlaceholder' id='viz1688029968112' style='position: relative'><noscript><a href='#'><img
+                alt='CHARACTERS '
+                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsCharactersAnalysis&#47;CHARACTERS&#47;1_rss.png'
+                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='TheSimpsonsCharactersAnalysis&#47;CHARACTERS' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+              value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsCharactersAnalysis&#47;CHARACTERS&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-GB' />
+            <param name='filter' value='publish=yes' />
+          </object></div>
+        <script
+          type='text/javascript'>                    var divElement = document.getElementById('viz1688029968112'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1490px'; vizElement.style.height = '827px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      </div>
+    </section>
+    <!-- End Dashboards Section -->
+
+    <!-- ======= Stories Section ======= -->
+    <section id="story" class="story">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Stories</h2>
+        </div>
+        <div class="story-area">
+
+          <div class='tableauPlaceholder' id='viz1688136905771' style='position: relative'><noscript><a href='#'><img
+                  alt='THE SIMPSONS '
+                  src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsAnalysisStory&#47;TheSimpsonsAnalysisStory&#47;1_rss.png'
+                  style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+              <param name='embed_code_version' value='3' />
+              <param name='site_root' value='' />
+              <param name='name' value='TheSimpsonsAnalysisStory&#47;TheSimpsonsAnalysisStory' />
+              <param name='tabs' value='no' />
+              <param name='toolbar' value='yes' />
+              <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Th&#47;TheSimpsonsAnalysisStory&#47;TheSimpsonsAnalysisStory&#47;1.png' />
+              <param name='animate_transition' value='yes' />
+              <param name='display_static_image' value='yes' />
+              <param name='display_spinner' value='yes' />
+              <param name='display_overlay' value='yes' />
+              <param name='display_count' value='yes' />
+              <param name='language' value='en-GB' />
+            </object></div>
+          <script
+            type='text/javascript'>                    var divElement = document.getElementById('viz1688136905771'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1000px'; vizElement.style.height = '727px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Stories Section -->
+    <!-- ======= Inference Section ======= -->
+    <section id="inference" class="inference">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Inference</h2>
+        </div>
+        <div class="inference_class">
+          <p>
+            The category wise analysis of the show with apt and different kind of visualisations provided lot of
+            insights about the show. This project purpose isn't oriented towards finding reason or cause for a
+            particular observation rather it aims to get a general overview to understand the show better.
+            <br>
+            <br>
+            On analysing the show as a whole we can find observation of many parameters like viewership, rating, etc. It
+            is found that over the years the rating and viewership of the show gradually declined. The highest rating or
+            viewership were for the initial episodes of the show while the recent episodes grabbed less viewership and
+            rating. The highest US Views recorded is 0.16M in 1991 and that of global views is 0.42B in 1995 and the
+            year 2015 recorded the lowest US views 0.01M and 0.06B global views. And the highest rating is 8.434 in 1995
+            and the lowest rating is 6.623 in 2015. This trend of decline in viewership is observed both on the country
+            ( United States ) and on global level. This is a matter of concern because though after 20th century there
+            has been huge development in the multi-media domain the show struggled to attract audience. With the
+            increases in population with digital device which will allow to view the show with ease, the viewership went
+            on declining scale after 1995. A similar trend in rating reveals the disappointment of the active audience
+            and critics. The next parameter of observation of word count and character count over the years. It was
+            observed that both these parameters shared a strong relationship between them. Throughout the show as the
+            word count increases the characters appeared in the year also increases and vice versa. This suggest that in
+            each episode the count of script lines might have been fairly divided among characters. The horizontal bar
+            chart of Top 10 Talkative characters shows that there is no huge difference in number of words spoken
+            between episodes. And while converting this into a line chart covering all episodes it was found that for
+            most of the episodes the word count was more than 2000.
+            <br>
+            <br>
+            The Speaking Line attribute of the Script Line Dataset allowed to know whether a particular line was made of
+            verbal or non - verbal means. The non - verbal lines constitute of line explaining the situation or sounds
+            or expressions given by characters or different noises. A dedicated pie chart for this parameter reveals
+            that the show has 93.87% as verbal lines while the remaining as non - verbal. Even though this parameter is
+            not so significant like other parameters this tells an important and obvious of the show, which is the show
+            is more talkative. Generally, cartoon shows might have a lot of different sounds and funny noise, but this
+            show is quite opposite, and this is because this show targets adult audience. The adult audience prefer
+            content over different voices.
+            <br>
+            <br>
+            The individual analysis of each location in the show reveals insights like, how many verbal or non - verbal
+            lines was spoken there, who are the top 10 people who spoke the greatest number of lines there and the trend
+            of character visit to that location over the years. These insights seem to vary with each location and it's
+            hard to get a general conclusion because of the huge set of locations available and high degree of variation
+            between them.
+            <br>
+            <br>
+            In the same way the analysis of each character of the show reveals the character contribution and character
+            nature. The analysis reveals whether the character preferred verbal or non - verbal means to communicate,
+            the 10 most spoken locations and episodes of the character, the trend observed in his appearances over the
+            years and the trend of his word count over the years.
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Inference Section -->
+
+    <!-- ======= Analysts Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Analysts</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="box">
+            <div class="content">
+              <img src="static/assets/img/team/Simpson_Akshaya.png" alt="" />
+              <img class="hover-img" src="static/assets/img/team/Akshaya.png" alt="Hover Image" />
+
+              <div class="info">
+                <h2>Akshaya Motamarri</h2>
+                <a href="https://www.linkedin.com/in/" aria-label="LinkedIN"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="content">
+              <img src="static/assets/img/team/Simpson_Lenin.png" alt="" />
+              <img class="hover-img" src="static/assets/img/team/Lenin.png" alt="Hover Image" />
+
+              <div class="info">
+                <h2>Lenin Vasan</h2>
+                <a href="https://www.linkedin.com/in/lenin-vasan" aria-label="LinkedIN"><i
+                    class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="content">
+              <img src="static/assets/img/team/Simpson_Nithish.png" alt="" />
+              <img class="hover-img" src="static/assets/img/team/Nithish.png" alt="Hover Image" />
+
+              <div class="info">
+                <h2>G Nithish Kanna</h2>
+                <a href="https://www.linkedin.com/in/nithish-kanna-g" aria-label="LinkedIN"><i
+                    class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="content">
+              <img src="static/assets/img/team/Simpson_Sanjay.png" alt="" />
+              <img class="hover-img" src="static/assets/img/team/Sanjay.png" alt="Hover Image" />
+
+              <div class="info">
+                <h2>Sanjay R R</h2>
+                <a href="https://www.linkedin.com/in/sanjay-r-r" aria-label="LinkedIN"><i
+                    class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <!-- End Analysts Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+        <p>
+          This website is created as part of our Data Analytics Project in SmartInternz Summer Internship program. We
+          have modified the original design of the webpage according to our project context. The details of the original
+          design are below.
+        </p>
+        <span>
+          Original Design
+          <a href="https://bootstrapmade.com/selecao-bootstrap-template/">
+            Selecao - Agency Bootstrap Template
+          </a>
+        </span>
+        <br>
+        <span>
+          Designed by
+          <a href="https://bootstrapmade.com/">
+            BootstrapMade
+          </a>
+        </span>
+        <br>
+        <span>
+          Home page picture
+          <a href="https://wall.alphacoders.com/big.php?i=1099806">
+            The Simpsons Family
+          </a>
+        </span>
+        <br>
+        <span>
+          Data Source
+          <a href="https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset">
+            The Simpsons Dataset
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+</body>
+
+</html>
